@@ -24,13 +24,10 @@ function Home() {
   useEffect(() => {
     (async () => {
       await getTopArtist().then(res => {
-        console.log(res)
         setTopArtist(res.artists)
       })
 
       await getTopTracks().then(res => {
-        console.log('tracks:', res)
-        // setTopTracks(res?.tracks)
         setTopTracks(res.tracks)
       })
     })()
