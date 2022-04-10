@@ -8,7 +8,7 @@
 </ol>
 
 <h3>Before You Run it</h3>
-Please add **.env.local** file into your root directory.
+Please add <strong>.env.local</strong> file into your root directory.
 
 and inside that file add your LastFM API key
 
